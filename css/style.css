@@ -1,0 +1,74 @@
+body {
+  background-color: #b0d4f1; /* azul mais escuro e suave */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  color: #5c4033; /* marrom escuro para textos */
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #a0522d; /* marrom para borda */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, p {
+  margin: 10px 0;
+  color: #5c4033;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background-color: #d8ecfa; /* azul bem suave */
+  color: #333;
+}
+
+button {
+  background: linear-gradient(to right, #ff7f50, #ff4500); /* laranja degradê */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #e85c2e, #cc3700);
+  transform: scale(1.05);
+}
+
+.resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #8b4513; /* marrom médio */
+}
+
+/* LINKS PERSONALIZADOS */
+a {
+  color: #d2691e; /* marrom avermelhado */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff7f50; /* laranja clara no hover */
+}
+
+a:visited {
+  color: #a0522d; /* marrom queimado */
+}
